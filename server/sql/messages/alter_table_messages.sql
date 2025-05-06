@@ -1,0 +1,1 @@
+ALTER TABLE messages ADD COLUMN channel_id INT REFERENCES channels(channel_id);

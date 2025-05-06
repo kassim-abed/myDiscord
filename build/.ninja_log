@@ -1,0 +1,7 @@
+# ninja log v6
+2	1703	7682434592841525	C:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/build/cmake_install.cmake	6837b0901b49014f
+2	1703	7682434592953003	build.ninja	6837b0901b49014f
+335	525	7676270743826046	server.exe	ab11424b0c62146
+16	35	7672049175078039	clean	9c4b4372737ab8da
+31	232	7676270740792112	CMakeFiles/server.dir/server/src/main.c.obj	7b7bd23b1d17217
+26	335	7676270740731680	CMakeFiles/server.dir/server/src/db.c.obj	3124fff6533b6964

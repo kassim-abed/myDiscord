@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -IC:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/include -IC:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/server/include -g -std=gnu99 -o CMakeFiles\\server.dir\\server\\src\\db.c.obj -c C:\\Users\\itslu\\OneDrive\\Desktop\\Cours\\myDiscord\\server\\src\\db.c",
+  "file": "C:\\Users\\itslu\\OneDrive\\Desktop\\Cours\\myDiscord\\server\\src\\db.c",
+  "output": "CMakeFiles\\server.dir\\server\\src\\db.c.obj"
+},
+{
+  "directory": "C:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -IC:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/include -IC:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/server/include -g -std=gnu99 -o CMakeFiles\\server.dir\\server\\src\\main.c.obj -c C:\\Users\\itslu\\OneDrive\\Desktop\\Cours\\myDiscord\\server\\src\\main.c",
+  "file": "C:\\Users\\itslu\\OneDrive\\Desktop\\Cours\\myDiscord\\server\\src\\main.c",
+  "output": "CMakeFiles\\server.dir\\server\\src\\main.c.obj"
+}
+]

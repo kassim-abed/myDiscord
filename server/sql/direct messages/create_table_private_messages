@@ -1,0 +1,7 @@
+CREATE TABLE private_messages (
+    message_id SERIAL PRIMARY KEY,
+    conversation_id INT REFERENCES private_conversations(conversation_id),
+    sender_id INT REFERENCES users(user_id),
+    content TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

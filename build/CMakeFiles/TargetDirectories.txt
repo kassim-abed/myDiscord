@@ -1,0 +1,3 @@
+C:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/build/CMakeFiles/server.dir
+C:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/build/CMakeFiles/edit_cache.dir
+C:/Users/itslu/OneDrive/Desktop/Cours/myDiscord/build/CMakeFiles/rebuild_cache.dir
