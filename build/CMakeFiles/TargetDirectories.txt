@@ -1,0 +1,3 @@
+C:/Users/ez132/Desktop/my_discord/build/CMakeFiles/client.dir
+C:/Users/ez132/Desktop/my_discord/build/CMakeFiles/edit_cache.dir
+C:/Users/ez132/Desktop/my_discord/build/CMakeFiles/rebuild_cache.dir
