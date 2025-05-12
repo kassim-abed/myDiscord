@@ -102,26 +102,11 @@ CMakeFiles/client.dir/client/src/roles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/client.dir/client/src/roles.c.s"
 	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/ez132/Desktop/my_discord/client/src/roles.c -o CMakeFiles/client.dir/client/src/roles.c.s
 
-CMakeFiles/client.dir/client/src/server.c.obj: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client/src/server.c.obj: CMakeFiles/client.dir/includes_C.rsp
-CMakeFiles/client.dir/client/src/server.c.obj: C:/Users/ez132/Desktop/my_discord/client/src/server.c
-CMakeFiles/client.dir/client/src/server.c.obj: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/ez132/Desktop/my_discord/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/client.dir/client/src/server.c.obj"
-	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/client/src/server.c.obj -MF CMakeFiles/client.dir/client/src/server.c.obj.d -o CMakeFiles/client.dir/client/src/server.c.obj -c C:/Users/ez132/Desktop/my_discord/client/src/server.c
-
-CMakeFiles/client.dir/client/src/server.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/client.dir/client/src/server.c.i"
-	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/ez132/Desktop/my_discord/client/src/server.c > CMakeFiles/client.dir/client/src/server.c.i
-
-CMakeFiles/client.dir/client/src/server.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/client.dir/client/src/server.c.s"
-	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/ez132/Desktop/my_discord/client/src/server.c -o CMakeFiles/client.dir/client/src/server.c.s
-
 CMakeFiles/client.dir/client/src/user.c.obj: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/client/src/user.c.obj: CMakeFiles/client.dir/includes_C.rsp
 CMakeFiles/client.dir/client/src/user.c.obj: C:/Users/ez132/Desktop/my_discord/client/src/user.c
 CMakeFiles/client.dir/client/src/user.c.obj: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/ez132/Desktop/my_discord/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/client.dir/client/src/user.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/ez132/Desktop/my_discord/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/client.dir/client/src/user.c.obj"
 	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/client/src/user.c.obj -MF CMakeFiles/client.dir/client/src/user.c.obj.d -o CMakeFiles/client.dir/client/src/user.c.obj -c C:/Users/ez132/Desktop/my_discord/client/src/user.c
 
 CMakeFiles/client.dir/client/src/user.c.i: cmake_force
@@ -136,7 +121,6 @@ CMakeFiles/client.dir/client/src/user.c.s: cmake_force
 client_OBJECTS = \
 "CMakeFiles/client.dir/client/src/channel.c.obj" \
 "CMakeFiles/client.dir/client/src/roles.c.obj" \
-"CMakeFiles/client.dir/client/src/server.c.obj" \
 "CMakeFiles/client.dir/client/src/user.c.obj"
 
 # External object files for target client
@@ -144,12 +128,11 @@ client_EXTERNAL_OBJECTS =
 
 client.exe: CMakeFiles/client.dir/client/src/channel.c.obj
 client.exe: CMakeFiles/client.dir/client/src/roles.c.obj
-client.exe: CMakeFiles/client.dir/client/src/server.c.obj
 client.exe: CMakeFiles/client.dir/client/src/user.c.obj
 client.exe: CMakeFiles/client.dir/build.make
 client.exe: CMakeFiles/client.dir/linkLibs.rsp
 client.exe: CMakeFiles/client.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/ez132/Desktop/my_discord/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable client.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/ez132/Desktop/my_discord/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable client.exe"
 	"C:/Program Files/CMake/Desktop/bin/cmake.exe" -E rm -f CMakeFiles/client.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/client.dir/objects.a @CMakeFiles/client.dir/objects1.rsp
 	C:/msys64/mingw64/bin/gcc.exe -g -lws2_32 -Wl,--whole-archive CMakeFiles/client.dir/objects.a -Wl,--no-whole-archive -o client.exe -Wl,--out-implib,libclient.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/client.dir/linkLibs.rsp

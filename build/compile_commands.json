@@ -13,12 +13,6 @@
 },
 {
   "directory": "C:/Users/ez132/Desktop/my_discord/build",
-  "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/client.dir/includes_C.rsp -g -std=gnu99 -finput-charset=UTF-8 -fexec-charset=UTF-8 -DLIBDEFLATE_DLL -mfpmath=sse -msse -msse2 -o CMakeFiles/client.dir/client/src/server.c.obj -c C:/Users/ez132/Desktop/my_discord/client/src/server.c",
-  "file": "C:/Users/ez132/Desktop/my_discord/client/src/server.c",
-  "output": "CMakeFiles/client.dir/client/src/server.c.obj"
-},
-{
-  "directory": "C:/Users/ez132/Desktop/my_discord/build",
   "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/client.dir/includes_C.rsp -g -std=gnu99 -finput-charset=UTF-8 -fexec-charset=UTF-8 -DLIBDEFLATE_DLL -mfpmath=sse -msse -msse2 -o CMakeFiles/client.dir/client/src/user.c.obj -c C:/Users/ez132/Desktop/my_discord/client/src/user.c",
   "file": "C:/Users/ez132/Desktop/my_discord/client/src/user.c",
   "output": "CMakeFiles/client.dir/client/src/user.c.obj"

@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/client.dir/client/src/channel.c.obj.d"
   "CMakeFiles/client.dir/client/src/roles.c.obj"
   "CMakeFiles/client.dir/client/src/roles.c.obj.d"
-  "CMakeFiles/client.dir/client/src/server.c.obj"
-  "CMakeFiles/client.dir/client/src/server.c.obj.d"
   "CMakeFiles/client.dir/client/src/user.c.obj"
   "CMakeFiles/client.dir/client/src/user.c.obj.d"
   "client.exe"

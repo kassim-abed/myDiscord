@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ez132/Desktop/my_discord/client/src/channel.c" "CMakeFiles/client.dir/client/src/channel.c.obj" "gcc" "CMakeFiles/client.dir/client/src/channel.c.obj.d"
   "C:/Users/ez132/Desktop/my_discord/client/src/roles.c" "CMakeFiles/client.dir/client/src/roles.c.obj" "gcc" "CMakeFiles/client.dir/client/src/roles.c.obj.d"
-  "C:/Users/ez132/Desktop/my_discord/client/src/server.c" "CMakeFiles/client.dir/client/src/server.c.obj" "gcc" "CMakeFiles/client.dir/client/src/server.c.obj.d"
   "C:/Users/ez132/Desktop/my_discord/client/src/user.c" "CMakeFiles/client.dir/client/src/user.c.obj" "gcc" "CMakeFiles/client.dir/client/src/user.c.obj.d"
   )
 

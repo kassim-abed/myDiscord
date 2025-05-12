@@ -177,30 +177,6 @@ client/src/roles.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/roles.c.s
 .PHONY : client/src/roles.c.s
 
-client/src/server.obj: client/src/server.c.obj
-.PHONY : client/src/server.obj
-
-# target to build an object file
-client/src/server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/server.c.obj
-.PHONY : client/src/server.c.obj
-
-client/src/server.i: client/src/server.c.i
-.PHONY : client/src/server.i
-
-# target to preprocess a source file
-client/src/server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/server.c.i
-.PHONY : client/src/server.c.i
-
-client/src/server.s: client/src/server.c.s
-.PHONY : client/src/server.s
-
-# target to generate assembly for a file
-client/src/server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/server.c.s
-.PHONY : client/src/server.c.s
-
 client/src/user.obj: client/src/user.c.obj
 .PHONY : client/src/user.obj
 
@@ -240,9 +216,6 @@ help:
 	@echo "... client/src/roles.obj"
 	@echo "... client/src/roles.i"
 	@echo "... client/src/roles.s"
-	@echo "... client/src/server.obj"
-	@echo "... client/src/server.i"
-	@echo "... client/src/server.s"
 	@echo "... client/src/user.obj"
 	@echo "... client/src/user.i"
 	@echo "... client/src/user.s"
